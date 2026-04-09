@@ -1,0 +1,36 @@
+@media (max-width:600px){
+    .container{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    #logo{
+        margin-left: 7px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin: 7px 0;
+    }
+    .nav-menu li {
+        padding: 15px;
+        border-top: 1px solid;
+    }
+    .nav-icons{
+        flex-direction: column;
+        margin: 0;
+        padding-left: 15px;
+    }
+    .donate-btn{
+        margin-bottom: 36px;
+        margin-left: 7px;
+    }
+    /* banner */
+    #banner-section{
+        background: #000;
+    }
+    .banner-left-content{
+        max-width: 100%;
+    }
+}
