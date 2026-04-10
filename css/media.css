@@ -33,4 +33,11 @@
     .banner-left-content{
         max-width: 100%;
     }
+    /* ##########  about us ########## */
+    .about-content{
+        flex-direction: column;
+    }
+    iframe{
+        max-width: 100%;
+    }
 }

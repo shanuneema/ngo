@@ -18,7 +18,11 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.section-title{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
 /* ######## nav start ############## */
 header{
     border-bottom: 3px solid var(--primary-bg-color);
@@ -104,4 +108,24 @@ nav{
     font-family: cursive;
 }
 /* ##########  about us ########## */
-
+.about-content{
+    display: flex;
+    margin-bottom: 60px;
+}
+.right-about-content p{
+    padding-left: 30px;
+    padding-right: 20px;
+    line-height: 25px;
+    
+}
+#short-content{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.right-about-content a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 24px;
+    padding-left: 30px;
+}
