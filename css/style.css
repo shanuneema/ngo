@@ -23,6 +23,13 @@ body{
     padding-top: 60px;
     padding-bottom: 30px;
 }
+.read-more{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 32px;
+    font-family: cursive;
+
+}
 /* ######## nav start ############## */
 header{
     border-bottom: 3px solid var(--primary-bg-color);
@@ -128,4 +135,49 @@ nav{
     font-family: cursive;
     font-size: 24px;
     padding-left: 30px;
+}
+/* ########### our vision ############## */
+#vision-section{
+    background: url("../images/vision.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.our-vision-content{
+    padding-bottom: 60px;
+}
+#vision-section h1{
+    padding-top: 110px;
+}
+#vision-section p {
+    font-size: 34px;
+    text-align: center;
+    line-height: 46px;
+    padding-bottom: 60px;
+}
+/* ######### program-section ######### */
+#program-section{
+    background-color: #faf9f7;
+}
+.program-content{
+    display: flex;
+}
+.program-left-data{
+    width: 50%;
+}
+.program-left-data img{
+    width: 100%;
+}
+.program-right-data{
+    width: 50%;
+    padding-left: 40px;
+}
+.program-right-data h3{
+    padding-top: 45px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.program-right-data p {
+    padding: 25px 0;
+    line-height: 30px;
 }

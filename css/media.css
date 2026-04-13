@@ -40,4 +40,19 @@
     iframe{
         max-width: 100%;
     }
+    /* our vision */
+    #vision-section h1{
+        padding-top: 0;
+    }
+    /* program section */
+    .program-content{
+        flex-direction: column;
+    }
+    .program-left-data{
+        width: 100%;
+    }
+    .program-right-data{
+        width: 100%;
+        padding-left: 5px;
+    }
 }
