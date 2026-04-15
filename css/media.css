@@ -62,6 +62,24 @@
     }
     .program-services-card{
         width: 100%;
-
+    }
+    /* reach section */
+    .reach-content{
+        flex-direction: column;
+    }
+    .reach-box{
+        width: 100%;
+    }
+    .reach-box p{
+        padding: 10px 0;
+    }
+    /* other website images */
+    .website-images{
+        flex-direction: column;
+        width: 100%;
+    }
+    .website-images img{
+        padding: 10px 0;
+        margin: 0 auto;
     }
 }

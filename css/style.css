@@ -21,6 +21,7 @@ body{
 .section-title{
     text-align: center;
     padding-top: 60px;
+    font-size: 40px;
     padding-bottom: 30px;
 }
 .read-more{
@@ -210,4 +211,40 @@ nav{
 }
 .program-title:hover{
     background-color: var(--primary-bg-color);
+}
+/* ########## reach-section ############### */
+#reach-section{
+    background: url("../images/Progresso-o-meter.jpg") no-repeat;
+    background-size: cover;
+}
+.reach-content{
+    display: flex;
+    justify-content: space-between;
+}
+.reach-box{
+    width: 22%;
+    text-align: center;
+}
+.reach-box h1{
+    color: var(--primary-text-color);
+    font-size: 80px;
+}
+.reach-box p{
+    padding: 20px 0;
+}
+#reach-child-image{
+    width: 100%;
+    padding: 40px 0;
+}
+/* ############# other website images ########## */
+.website-images{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.website-images img{
+    height: 70px;
 }
