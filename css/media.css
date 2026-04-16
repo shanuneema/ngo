@@ -77,9 +77,24 @@
     .website-images{
         flex-direction: column;
         width: 100%;
+        margin: 0 auto 50px auto;
     }
     .website-images img{
         padding: 10px 0;
         margin: 0 auto;
+    }
+ 
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-column ul{
+        margin-top: 30px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .top-column-heading{
+      margin-top: 30px;
     }
 }
